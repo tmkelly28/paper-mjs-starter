@@ -1,0 +1,17 @@
+{
+  "name": "paper-mjs-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<tom@getcatalyst.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "paper": "^0.12.11"
+  },
+  "scripts": {
+    "serve": "http-server -w",
+    "postinstall": "sh ./bin/init.sh"
+  }
+}
